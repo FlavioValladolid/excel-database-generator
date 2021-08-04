@@ -4,23 +4,6 @@ import explorer as exp
 import pandas as pd
 
 path = r'C:\Users\Flavio\Documents\Orders - Printing and Converting-20210726T191931Z-001\Orders - Printing and Converting'
-# os.chdir(path)
-
-"""
-folder_list = []
-a = ''
-
-for folder in os.listdir('./'):
-
-    a = folder
-    a = a.replace(' ','\\')
-    print(os.listdir(f'{a}'))
-
-
-    # if file.endswith('.xls'):
-    #     print(file)
-
-"""
 
 items_dictionary = {'SMK Order': 'B4',
                 'Item Name': 'B6',

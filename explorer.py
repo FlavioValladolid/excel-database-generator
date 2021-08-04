@@ -17,9 +17,10 @@ def excel_explorer(file):
 
         info_list = []
 
-        items_dictionary = {'SMK Order': 'B4',
-                'Item Name': 'B6',
+        items_dictionary = {
                 'SMK ID or Item ID': 'B8',
+                'SMK Order': 'B4',
+                'Item Name': 'B6',
                 'Quantity': 'H26',
                 'Overrun%': 'H27',
                 'Qty with OR%': '',
