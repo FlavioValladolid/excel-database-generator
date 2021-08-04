@@ -59,9 +59,9 @@ for root, dirs, files in os.walk(path):
             if exp.excel_explorer(root+'\\'+name_) != None:
                 df = df.append(pd.DataFrame([exp.excel_explorer(root+'\\'+name_)]))
                 print(name_)
+                print(df)   
             else:
                 pass
 
 df.columns = list(items_dictionary.keys())
-print(df)
 df.to_csv('file_name.csv')
